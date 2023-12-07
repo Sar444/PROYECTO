@@ -1,0 +1,54 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;  
+    color: rgb(112, 22, 22);
+    float: left; 
+  }
+
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+section {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #000000;
+}
+
+.contacto {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ubicacion {
+    flex: 1;
+    margin: 0 1em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #007BFF;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
